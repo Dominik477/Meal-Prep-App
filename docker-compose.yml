@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:16
+    container_name: mealprep-db
+    environment:
+      POSTGRES_DB: mealprep
+      POSTGRES_USER: mealprep
+      POSTGRES_PASSWORD: mealprep
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mealprep -d mealprep"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    container_name: mealprep-backend
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg2://mealprep:mealprep@db:5432/mealprep
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres-data:

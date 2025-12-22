@@ -1,0 +1,13 @@
+SELECT * FROM users;
+
+SELECT m.id, m.name
+FROM meals m
+WHERE m.user_id = 1;
+
+SELECT u.id,
+       u.full_name,
+       COUNT(m.id) AS meal_count
+FROM users u
+LEFT JOIN meals m ON u.id = m.user_id
+GROUP BY u.id, u.full_name
+ORDER BY u.id;
