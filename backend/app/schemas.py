@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, EmailStr, constr
 
 
 class ProductOut(BaseModel):
@@ -20,10 +20,11 @@ class ProductUpdate(BaseModel):
     calories_per_100g: float | None = None
 
 
+
 class RegisterIn(BaseModel):
     email: EmailStr
     full_name: str
-    password: str
+    password: constr(min_length=6, max_length=72)
 
 
 class LoginIn(BaseModel):

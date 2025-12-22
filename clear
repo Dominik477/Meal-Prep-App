@@ -1,0 +1,84 @@
+[33mcommit 503143ef76ba7c85594d25595fab1cf5b6de3b63[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:43:18 2025 +0100
+
+    feat(auth): add register and login endpoints
+
+[33mcommit f6f9db7ebbdd9628afad56c6903393608c30d6a1[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:41:30 2025 +0100
+
+    feat(auth): add jwt utilities and auth env config
+
+[33mcommit 1410478f9144433c17410e5c2ce6293613d8081c[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:40:49 2025 +0100
+
+    feat(db): add users table for authentication
+
+[33mcommit 1fff3081357306039a169b1b1bd740311c1b852e[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:40:37 2025 +0100
+
+    chore(auth): add jwt and password hashing dependencies
+
+[33mcommit 8160d191b0718ff461f0dc8966897aa4b9b0749d[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:37:41 2025 +0100
+
+    feat(api): add products CRUD endpoints
+
+[33mcommit adbc51146565fa4248e63cafadb240bcc3917208[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:36:16 2025 +0100
+
+    feat(db): add calories_per_100g to product model
+
+[33mcommit cdcc31d9640d39239ec4fe652ed2f61c71e8d715[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:31:28 2025 +0100
+
+    chore(db): seed initial products for development
+
+[33mcommit d0a75d1bc8a1e123c703c783b47cfb6f7bb76e2f[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:29:57 2025 +0100
+
+    feat(api): add products list and details endpoints with validation
+
+[33mcommit 49d13600a5ab851149fc91c68af38d222484b915[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Mon Dec 22 22:27:08 2025 +0100
+
+    feat(db): add postgres and sqlalchemy base setup
+
+[33mcommit 1686fa1b60b052cb4ffaa7426046f89d811a8619[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: b0f7a78 2499cda
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Sat Nov 22 16:44:20 2025 +0100
+
+    feat(init): initial project setup
+
+[33mcommit b0f7a78c0defba2cbb88196bc25410d877640d95[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Sat Nov 22 16:40:27 2025 +0100
+
+    feat(init): initial project setup
+
+[33mcommit 2499cda2eb8dfb45a2f96588afef97c7554502af[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Sat Oct 18 14:57:00 2025 +0200
+
+    Update README.md
+
+[33mcommit 800ef9ba3a425c3f189c8d0a9c6c4706311e4d85[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Sat Oct 18 14:35:32 2025 +0200
+
+    Update README.md
+
+[33mcommit 619c1ba8ef26aa3a59699a801f3904b77e7cfd64[m
+Author: Dominik Sobczyk <dominiksobczyk21@gmail.com>
+Date:   Sat Oct 18 14:32:47 2025 +0200
+
+    Initial commit
