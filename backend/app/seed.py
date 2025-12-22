@@ -10,9 +10,9 @@ def seed_products(db: Session):
 
     db.add_all(
         [
-            Product(name="Ryż biały"),
-            Product(name="Pierś z kurczaka"),
-            Product(name="Brokuł"),
+            Product(name="Ryż biały", calories_per_100g=360),
+            Product(name="Pierś z kurczaka", calories_per_100g=165),
+            Product(name="Brokuł", calories_per_100g=35),
         ]
     )
     db.commit()
